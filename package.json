@@ -1,0 +1,22 @@
+{
+  "name": "ufc-events-cf-tsc",
+  "version": "0.0.0",
+  "type": "module",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230404.0",
+    "@hbauer/prettier-config": "^1.1.0",
+    "prettier": "^2.8.7",
+    "typescript": "^5.0.4",
+    "wrangler": "2.14.0"
+  },
+  "private": true,
+  "prettier": "@hbauer/prettier-config",
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler publish"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "json-2-csv": "^4.0.0"
+  }
+}
